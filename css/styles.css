@@ -2,6 +2,7 @@
     --bg-color: #282828;
     --primary: #fbf1c7;
     --link-color: #458588;
+    --highlight: #2aeb7b;;
 }
 
 * {
@@ -14,43 +15,54 @@ html {
     font-family: 'Space Grotesk', sans-serif;
 }
 
+body {
+    background-color: var(--bg-color);
+    color: #ffffff;
+}
+
 .container {
     width: 100%;
     height: 100vh;
-    background-color: var(--bg-color);
-    color: var(--primary);
-}
 
-.about {
     display: flex;
     flex-direction: column;
-    padding: 30px;
 }
 
-.about .name {
-    font-size: 34px;
-    font-weight: bold;
-}
+.main {
+    position: relative;
 
-.about .position {
-    font-size: 16px;
-}
+    width: 100%;
+    height: 60%;
 
-.links {
-    list-style: none;
-    margin: 0px 30px;
+    padding: 0rem 3.125rem;
+
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: center;
 }
 
-.links li a {
-    color: var(--link-color);
-    text-decoration: none;
+.main::before {
+    content: '';
+
+    position: absolute;
+    z-index: -5;
+    
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+
+    background: url("https://cdna.artstation.com/p/assets/images/images/072/429/988/large/davood-moghaddami-asset.jpg?1707334619");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.750);
 }
 
-.line {
-    background-color: var(--primary);
-    height: 0.5px;
-    margin: 30px;
+.projects-container {
+    padding: 0rem 3.125rem;
+
+    display: flex;
+    flex-direction: column;
 }
