@@ -1,7 +1,5 @@
 :root {
     --bg-color: #282828;
-    --primary: #fbf1c7;
-    --link-color: #458588;
     --highlight: #2aeb7b;;
 }
 
@@ -32,13 +30,15 @@ body {
     position: relative;
 
     width: 100%;
-    height: 60%;
+    height: 50%;
 
     padding: 0rem 3.125rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    gap: 1.875rem;
 }
 
 .main::before {
@@ -58,6 +58,54 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.750);
+}
+
+.me .name {
+    font-size: 2.375rem;
+    font-weight: bold;
+}
+
+.me .position {
+    color: #dbdbdb;
+    font-size: 1.063rem;
+    font-weight: 300;
+}
+
+.about p {
+    font-size: 0.938rem;
+    line-height: 1.5;
+}
+
+.contact {
+    display: block;
+    width: 210px;
+    height: 40px;
+
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #076678;
+
+    font-size: 0.938rem;
+    color: #ffffff;
+    font-weight: 500;
+
+    gap: 0.313rem;
+
+    transition: 0.2s;
+}
+
+.contact:hover {
+    background-color: #1195ad;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
 }
 
 .projects-container {
