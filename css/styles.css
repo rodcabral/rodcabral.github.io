@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #282828;
+    --bg-color: #e3e3e3;
     --highlight: #2aeb7b;;
 }
 
@@ -15,7 +15,7 @@ html {
 
 body {
     background-color: var(--bg-color);
-    color: #ffffff;
+    color: #000000;
 }
 
 .container {
@@ -41,39 +41,21 @@ body {
     gap: 1.875rem;
 }
 
-.main::before {
-    content: '';
-
-    position: absolute;
-    z-index: -5;
-    
-    width: 100%;
-    height: 100%;
-    
-    top: 0;
-    left: 0;
-
-    background: url("https://cdna.artstation.com/p/assets/images/images/072/429/988/large/davood-moghaddami-asset.jpg?1707334619");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.750);
-}
-
 .me .name {
     font-size: 2.375rem;
     font-weight: bold;
 }
 
 .me .position {
-    color: #dbdbdb;
+    color: #333333;
     font-size: 1.063rem;
     font-weight: 300;
 }
 
 .about p {
-    font-size: 0.938rem;
+    font-size: 1rem;
     line-height: 1.5;
+    color: 111111;
 }
 
 .contact {
@@ -83,14 +65,14 @@ body {
 
     text-decoration: none;
 
+    background: #000000;
+    color: #ffffff;
+
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: #076678;
-
     font-size: 0.938rem;
-    color: #ffffff;
     font-weight: 500;
 
     gap: 0.313rem;
@@ -99,7 +81,7 @@ body {
 }
 
 .contact:hover {
-    background-color: #1195ad;
+    background: #222222;
 }
 
 .links {
