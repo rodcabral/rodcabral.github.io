@@ -1,6 +1,8 @@
 :root {
-    --bg-color: #e3e3e3;
-    --highlight: #2aeb7b;;
+    --bg-color: #eff1f5;
+    --txt-color: #4c4f69;
+    --primary: #179299;
+    --primary-hover: #26aeb5;
 }
 
 * {
@@ -15,7 +17,6 @@ html {
 
 body {
     background-color: var(--bg-color);
-    color: #000000;
 }
 
 .container {
@@ -44,18 +45,19 @@ body {
 .me .name {
     font-size: 2.375rem;
     font-weight: bold;
+    color: var(--txt-color);
 }
 
 .me .position {
-    color: #2f2f2f;
     font-size: 1.063rem;
     font-weight: 300;
+    color: var(--txt-color);
 }
 
 .about p {
     font-size: 1.008rem;
     line-height: 1.5;
-    color: #000000;
+    color: var(--txt-color);
 }
 
 .contact {
@@ -65,7 +67,7 @@ body {
 
     text-decoration: none;
 
-    background: #000000;
+    background: var(--primary);
     color: #ffffff;
 
     display: flex;
@@ -81,7 +83,7 @@ body {
 }
 
 .contact:hover {
-    background: #222222;
+    background: var(--primary-hover);
 }
 
 .links {
