@@ -12,7 +12,7 @@
 }
 
 html {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 
 .me .name {
     font-size: 2.375rem;
-    font-weight: bold;
+    font-weight: 600;
     color: var(--txt-color);
 }
 
