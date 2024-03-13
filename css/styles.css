@@ -13,7 +13,7 @@
 }
 
 html {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 }
 
 .about p {
-    font-size: 1.008rem;
+    font-size: 0.969rem;
     line-height: 1.5;
     color: var(--txt-color);
 }
