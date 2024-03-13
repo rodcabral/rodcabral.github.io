@@ -3,6 +3,7 @@
     --txt-color: #4c4f69;
     --primary: #179299;
     --primary-hover: #26aeb5;
+    --stroke-color: #444444;
 }
 
 * {
@@ -99,6 +100,17 @@ body {
     flex-direction: column;
 }
 
+.pattern-container {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+.pattern-container .pattern {
+    stroke: var(--stroke-color);
+}
+
 @media (max-width: 600px) {
     .main {
         height: auto;
@@ -107,5 +119,10 @@ body {
     
     .main .name {
         font-size: 2rem;  
+    }
+
+    .pattern-container {
+        bottom: -80px;
+        right: -80px;
     }
 }
