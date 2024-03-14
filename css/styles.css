@@ -11,7 +11,6 @@
     --primary: #1D65C1;
     --primary-hover: #5a9bed;
     --stroke-color: #5f5f5f;
-    --social-link: #e3e4e8;
 }
 
 .light {
@@ -21,11 +20,10 @@
     --primary: #2d74cf;
     --primary-hover: #5a9bed;
     --stroke-color: #3f3f3f;
-    --social-link: #4c4f69;
 }
 
 .social-link {
-    fill: var(--social-link);
+    fill: var(--txt-color);
 }
 
 html {
