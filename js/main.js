@@ -3,10 +3,10 @@ const ldmode = document.querySelector(".ldmode");
 const sun = document.querySelector(".sun");
 const moon = document.querySelector(".moon");
 
-let dark = false;
+let dark = true;
 
 ldmode.addEventListener("click", () => {
-    html.classList.toggle("dark");
+    html.classList.toggle("light");
 
     if(dark) {
         dark = false;
