@@ -57,22 +57,22 @@ body {
 }
 
 .me .name {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 600;
     color: var(--strong-color);
 }
 
 .me .position {
-    font-size: 1.063rem;
-    font-weight: 300;
+    font-size: 1.1rem;
+    font-weight: 500;
     color: var(--strong-color);
 }
 
 .about p {
-    font-size: 0.969rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: var(--txt-color);
-    width: 480px;
+    max-width: 480px;
 }
 
 .contact {
@@ -110,91 +110,6 @@ body {
 
 .social-link {
     fill: var(--txt-color);
-}
-
-.projects-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.projects-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: var(--strong-color);
-
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.projects-title a {
-    color: var(--txt-color);
-    font-size: 0.875rem;
-    font-weight: 400;
-
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.projects-title a:hover {
-    color: var(--strong-color);
-}
-
-.projects {
-    display: flex;
-    flex-direction: column;
-
-    gap: 0.313rem;
-}
-
-.project {
-    display: flex;
-    flex-direction: row;
-
-    padding: 30px 0px;
-
-    gap: 0.938rem;
-}
-
-.project-info {
-    display: flex;
-    flex-direction: column;
-    gap: 0.438rem;
-}
-
-.project img {
-    border: 2px solid var(--txt-color);
-    border-radius: 5px;
-    width: 130px;
-    height: 80px;
-    object-fit: cover;
-}
-
-.title-container {
-    display: flex;
-    align-items: center;
-
-    gap: 0.313rem;
-}
-
-.title-container .title span {
-    color: var(--color-text);
-    font-size: 0.8rem;
-    font-weight: 300;
-
-}
-
-.title-container .title {
-    color: var(--strong-color);
-    font-size: 1.094rem;
-    font-weight: bold;
-}
-
-.project p {
-    color: var(--txt-color);
-    font-size: 0.906rem;
-    width: 300px;
 }
 
 .pattern-container {
