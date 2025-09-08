@@ -15,7 +15,7 @@
     },
     {
         "title": "Gamestore",
-        "about": "Fictitious Game Store app made with React Native and Typescript.",
+        "about": "Game Store app made with React Native and Typescript.",
         "type": ["Mobile", "General"],
         "image": "images/projects/gamestore.png",
         "link": "https://github.com/rodcabral/gamestore"
