@@ -7,6 +7,16 @@
     --primary: #646cffaa;
 }
 
+@keyframes entrance {
+    from {
+        transform: scale(10%);
+    }
+
+    to {
+        transform: scale(100%);
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -193,6 +203,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+
+.project {
+    animation: 2s entrance;
 }
 
 .project a {
