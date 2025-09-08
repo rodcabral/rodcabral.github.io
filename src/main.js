@@ -21,6 +21,9 @@ async function render() {
         const img = document.createElement("img");
         img.src = p.image;
 
+        const projectAboutContainer = document.createElement("div");
+        projectAboutContainer.classList.add("project-about-container");
+            
         const pType = document.createElement("p");
         pType.innerText = p.type[0];
         pType.innerText += p.type[1] != "General" ? `, ${p.type[1]}` : "";
@@ -34,10 +37,12 @@ async function render() {
         pAbout.innerText = p.about;
         pAbout.classList.add("project-about");
 
+        projectAboutContainer.appendChild(pType);
+        projectAboutContainer.appendChild(pTitle);
+        projectAboutContainer.appendChild(pAbout);
+
         a.appendChild(img);
-        a.appendChild(pType);
-        a.appendChild(pTitle);
-        a.append(pAbout);
+        a.appendChild(projectAboutContainer);
 
         projects_list.appendChild(li);
     })
