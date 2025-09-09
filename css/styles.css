@@ -222,9 +222,9 @@ body {
     flex-direction: column;
     gap: 7px;
 
-    background: rgba(39, 39, 42, 0.73);
+    background: rgba(39, 39, 42, 0.75);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(13px);
+    backdrop-filter: blur(16px);
     border-radius: 0px 0px 5px 5px;
 }
 
