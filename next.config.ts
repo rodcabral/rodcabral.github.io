@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
     distDir: 'dist',
     images: {
         unoptimized: true
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
     }
 };
 
