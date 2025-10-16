@@ -26,7 +26,7 @@ export default function Header() {
     return (
         <div className="flex justify-between items-center align-middle">
             <div>
-                <p className="font-bold">Rodrigo Cabral</p>
+                <Link href="/" className="font-bold">Rodrigo Cabral</Link>
             </div>
             <Menu />
         </div>
