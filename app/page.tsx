@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
                 <p className="text-gray-300 text-base/loose">I am enthusiastic about building projects that solve real-world problems. Mostly working with <Focus txt="Typescript" />, <Focus txt="C" />, <Focus txt="C++" /> and <Focus txt="Python" />, but I always enjoy learning new technologies and languages.</p>
 
-                <p className="text-gray-300"><Link href="/blog" className="underline decoration-green-700">Blog</Link> / <Link href="/projects" className="underline decoration-green-700">Projects</Link> related to Low-Level, Systems, Computer Graphics, Machine Learning and more.</p>
+                <p className="text-gray-300"><Link href="/blog" className="underline decoration-green-700">Blog</Link> and <Link href="/projects" className="underline decoration-green-700">Projects</Link> related to Low-Level, Computer Graphics, Machine Learning and more.</p>
 
                 <ul className="flex gap-3 items-center">
                     <li>
