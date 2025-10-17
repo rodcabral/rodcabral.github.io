@@ -53,7 +53,7 @@ export default function Home() {
                     </li>
                 </ul>
             </div >
-            <div className="mt-5 border-b-[1px] border-t-[1px] border-gray-900 py-10">
+            <div className="mt-5 border-b-[1px] border-t-[1px] border-gray-900 py-5">
                 <h4 className="font-bold">Recent blog posts</h4>
                 <div className="mt-2 flex flex-col gap-5">
                     <BlogTitle date="Oct 16, 2025" title="Lorem ipsum dolor sit amet" />
