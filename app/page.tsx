@@ -35,10 +35,10 @@ function SocialLink({ social, title, href }: { social: string, title: string, hr
 export default function Home() {
     return (
         <Layout>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 text-[15px]">
                 <div className="flex flex-col gap-2">
-                    <h4 className="font-semibold">Hi, I'm Rodrigo.</h4>
-                    <p className="text-gray-300">I'm a Programmer from Brazil 🇧🇷, dedicated to creating high-performance code.</p>
+                    <h4 className="font-semibold text-[17px]">Hi, I'm Rodrigo.</h4>
+                    <p className="text-gray-300">I'm a Programmer from Brazil, dedicated to creating high-performance code.</p>
                 </div>
                 <p className="text-gray-300 text-base/loose">I am enthusiastic about building projects that solve real-world problems. Mostly working with <Focus txt="Typescript" />, <Focus txt="C" />, <Focus txt="C++" /> and <Focus txt="Python" />, but I always enjoy learning new technologies and languages.</p>
 
@@ -54,12 +54,26 @@ export default function Home() {
                 </ul>
             </div >
             <div className="mt-5 border-b-[1px] border-t-[1px] border-gray-900 py-5">
-                <h4 className="font-bold">Recent blog posts</h4>
+                <h4 className="font-bold text-[17px]">Recent blog posts</h4>
                 <div className="mt-2 flex flex-col gap-5">
                     <BlogTitle date="Oct 16, 2025" title="Lorem ipsum dolor sit amet" />
                     <BlogTitle date="Oct 16, 2025" title="Lorem ipsum dolor" />
                     <BlogTitle date="Oct 16, 2025" title="Hello, World!" />
                 </div>
+            </div>
+            <div className="mt-5 flex flex-col gap-3">
+                <div className="flex gap-3">
+                    <img className="w-2xl" src="/denis-istomin-sky-110517-b-v2-2-f.jpg" alt="thanks for visiting" />
+                    <div className="flex flex-col justify-between">
+
+                        <p className="text-xs w-1 text-gray-700 italic">Thanks for visiting!</p>
+                        <p className="text-xs w-1 text-gray-700 italic">Art by Denis Istomin</p>
+                        <p className="text-xs w-1 text-gray-700 italic">Website and Content by Rodrigo Cabral</p>
+                    </div>
+
+                </div>
+                <p className="text-xs italic text-gray-700">"What I cannot create, I do not understand." - Richard Feynman</p>
+                <p className="text-xs italic text-gray-700">"If you wish to make an apple pie from scratch, you must first invent the universe." - Carl Sagan</p>
             </div>
         </Layout >
     )

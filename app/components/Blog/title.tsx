@@ -4,7 +4,7 @@ export default function BlogTitle({ date, title }: { date: string, title: string
             <span className="bg-green-800 w-1 h-10 rounded-full"></span>
             <div className="flex flex-col py-1">
                 <p className="text-xs text-gray-600">{date}</p>
-                <p className="font-mono text-gray-300">{title}</p>
+                <p className="font-mono font-medium text-gray-300 text-[15.5px]">{title}</p>
             </div>
         </div>
     )
